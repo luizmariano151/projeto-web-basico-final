@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b13fafa74f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <title>LP</title>
+</head>
+<body>
+    <div>
+        <nav class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Projetos</a></li>
+            </ul>
+            <div class="alterar-tema">
+                <button onclick="alterarTema()">Tema</button>
+            </div>
+        </nav>
+        <header class="cabecalho">
+            <div class="apresentacao">
+                <div class="mensagem">
+                    <p>Dev <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>  
+                </div>
+                <div>
+                    <h3>Luiz Mariano Júnior</h3>
+                    <h4>Graduando em Análise e Desenvolvimento de Sistemas</h4>
+                </div>
+                <div class="redes-sociais">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="imagem">
+                <img src="./img/tecnologias.svg" alt="Tecnologias html css e javascript">
+            </div>
+        </header>
+
+        <section class="projetos">
+            <h2 class="projetos-titulo">Projetos</h2>
+            <ul>
+                <li class="projetos-itens">
+                    <a target="_blank" href="https://codepen.io/luizmariano151/pen/JjZOvMR">Tutorial</a>
+                    <button id="1" onclick="mostrar(id)" class="minimizar">Mostrar</button>
+                    <div id="codigo-1" class="codigos">
+                        <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjZOvMR" data-user="luizmariano151" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/luizmariano151/pen/JjZOvMR">
+                            Untitled</a> by Luiz Mariano Júnior (<a href="https://codepen.io/luizmariano151">@luizmariano151</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+                </li>
+
+                <li class="projetos-itens">
+                    <a target="_blank" href="https://codepen.io/luizmariano151/pen/JjZOvMR">Tutorial</a>
+                    <button id="2" onclick="mostrar(id)" class="minimizar">Mostrar</button>
+                    <div id="codigo-2" class="codigos">
+                        <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjZOvMR" data-user="luizmariano151" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/luizmariano151/pen/JjZOvMR">
+                            Untitled</a> by Luiz Mariano Júnior (<a href="https://codepen.io/luizmariano151">@luizmariano151</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <footer>
+            <p>&copy; Todos os direitos reservados. Site Desenvolvido no curso de Aperfeiçoamento em
+                Desenvolvimento Web Básico.
+            </p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body.dark{
+    background-color: #2F4F4F;
+}
+
+.dark .cabecalho{
+    background-color: #3A678B;
+}
+
+.dark .cabecalho .apresentacao, 
+.dark .cabecalho .apresentacao h3,
+.dark .cabecalho .apresentacao h4,
+.dark .cabecalho .apresentacao i {
+    color: white;
+}
+
+.dark .projetos {
+    background-color: #3A678B;
+}
+
+.dark .projetos a, .dark .projetos-titulo {
+    color: white;
+}
+
+.dark .menu, .dark footer{
+    background-color: rgb(20, 20, );
+}
+
+.dark .menu ul li a, .dark footer p{
+    color: white;
+}
+
+.dark button, .dark .projetos-itens .minimizar{
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+}
